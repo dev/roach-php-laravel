@@ -11,7 +11,7 @@
     ],
     "require": {
         "php": "^8.0",
-        "roach-php/core": "^0.3.0",
+        "roach-php/core": "dev-main",
         "spatie/laravel-package-tools": "^1.11"
     },
     "require-dev": {
@@ -22,6 +22,12 @@
         "roave/security-advisories": "dev-latest",
         "spatie/phpunit-snapshot-assertions": "^4.2"
     },
+     "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/dev/roach-php-core"
+        }
+    ],
     "minimum-stability": "dev",
     "prefer-stable": true,
     "autoload": {
